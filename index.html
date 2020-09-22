@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarkata Project</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<nav class="navigation">
+
+    <input type="search" id="mySearch" placeholder="Search for products">
+    <img   src="c:/users/treyz/desktop/project/download.png" alt="search">
+
+    
+    <p>search</p>
+    
+    <button onclick="myFunction()">products</button>\
+    
+    <p id="demo"></p>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("mySearch").placeholder;
+      document.getElementById("demo").innerHTML = x;
+    }
+    </script>
+
+</nav>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="search-container">
+  
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><img id src="c:/users/treyz/desktop/project/download.png" alt="search"></button>
+  
+  </div>
+</div>
+
+<form action="/action_page.php" method="post">
+  <input type="text" name="products" required>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
